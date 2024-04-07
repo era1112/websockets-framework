@@ -1,6 +1,7 @@
 # websockets-framework
 Collection of solutions for un-documented websockets control over IoT devices with a webui but no montioring app or decently useful API
 
+Example: A security camera has motion detection but it doesn't make any logs. You realize it renders the page with WS, so now you can automate a query to it with your computer and make your own log.
 
 Step 1: Discovering undocumented ws commands:
   - Look at old ws messages:
