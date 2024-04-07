@@ -7,7 +7,7 @@ Method:
   Discover undocumented ws commands:
   - Open Developer Tools
   - With recording on in the network tab, login/interact with the webUI
-  - Filter to “ws” and then open the messages tab.
+  - Filter to “ws” and messages.
   - Hope there is something in there that you can reuse
   
   Develop script to automate commands:
