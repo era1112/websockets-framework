@@ -3,11 +3,11 @@ Collection of solutions for un-documented websockets control over IoT devices wi
 
 
 Step 1: Discovering undocumented ws commands:
-  Look at old ws messages:
-  - Open Developer Tools
-  - With recording on in the network tab, login/interact with the webUI
-  - Filter to “ws” and messages.
-  - Hope there is something in there that you can reuse
+  - Look at old ws messages:
+    - Open Developer Tools
+    - With recording on in the network tab, login/interact with the webUI
+    - Filter to “ws” and messages.
+    - Hope there is something in there that you can reuse
 
   Check for any open websockets: Console: queryObjects(WebSocket)
 
