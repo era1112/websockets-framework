@@ -3,6 +3,7 @@ Collection of solutions for un-documented websockets control over IoT devices wi
 
 
 Method:
+
   Discover undocumented ws commands:
   - Open browser Developer Tools
   - Browse to device on HTTP. Don’t do HTTPS so you can see the commands.
