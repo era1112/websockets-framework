@@ -14,9 +14,9 @@ Step 1: Discovering undocumented ws commands:
 
   - Pull mem reference to reuse an existing socket: 
     - devtools -> memory -> heap -> search for "websocket" -> right click one, store as local var. 
-    - Will make a new var called temp?
+    - Will make a new WebSocket object called tempX
 
-  - Push commands into a socket:  
+  - Try pushing commands into a socket:  
     - Console: socketVar.send("Put it in quotes")
 
   - Other resources:
@@ -24,7 +24,7 @@ Step 1: Discovering undocumented ws commands:
     - https://github.com/PalindromeLabs/STEWS/blob/main/discovery/README.md
 
 Step 2: Develop script to automate commands:
-  - Record traffic, change in new parameters to match device code
+  - Record traffic, write your own commands that use the device's commands
   - Modify script to carry out/poll on device-specific commands
   - May require capturing and scripting the login routine to generate session-specific bullshit (cookies or session IDs or whatever)
 
