@@ -14,6 +14,7 @@ class Flashback():
         
         # Just tested on non-secure HTTP, will likely work on HTTPS with enough leniancy on the SSL parameters here
         # Using a tls proxy on the client computer might work too
+        # Seems to be possible on other tools: https://github.com/vi/websocat/blob/master/moreexamples.md
         self.ssl_context = ssl.SSLContext()
         self.ssl_context.check_hostname = False
         self.ssl_context.verify_mode = ssl.CERT_NONE
