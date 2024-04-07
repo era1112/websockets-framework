@@ -1,4 +1,4 @@
-# ws-framework
+# websockets-framework
 Collection of solutions for un-documented websockets control over IoT devices with a webui but no montioring app or decently useful API
 
 
