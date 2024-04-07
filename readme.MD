@@ -5,10 +5,10 @@ Collection of solutions for un-documented websockets control over IoT devices wi
 Method:
 
   Discover undocumented ws commands:
-  - Open browser Developer Tools
-  - Browse to device on HTTP. Don’t do HTTPS so you can see the commands.
-  - With recording on in the DevTools network tab, login & interact with the webUI
-  - In the DevTools, look for and select “ws” and then open the messages tab.
+  - Open Developer Tools
+  - With recording on in the network tab, login/interact with the webUI
+  - Filter to “ws” and then open the messages tab.
+  - Hope there is something in there that you can reuse
   
   Develop script to automate commands:
   - Record traffic, change in new parameters to match device code
