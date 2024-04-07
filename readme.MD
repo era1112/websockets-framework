@@ -9,6 +9,7 @@ Method:
   - With recording on in the network tab, login/interact with the webUI
   - Filter to “ws” and messages.
   - Hope there is something in there that you can reuse
+  - Console: queryObjects(WebSocket) is useful
   
   Develop script to automate commands:
   - Record traffic, change in new parameters to match device code
