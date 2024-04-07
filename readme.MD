@@ -9,14 +9,13 @@ Step 1: Discovering undocumented ws commands:
   - Filter to “ws” and messages.
   - Hope there is something in there that you can reuse
 
-  Check for any open websockets:
-  - Console: queryObjects(WebSocket)
+  Check for any open websockets: Console: queryObjects(WebSocket)
 
-  Pull mem reference to reuse an existing socket:
-  - devtools -> memory -> heap -> search for "websocket" -> right click one, store as local var. Will make a new var called temp?
+  Pull mem reference to reuse an existing socket: devtools -> memory -> heap -> search for "websocket" -> right click one, store as local var. Will make a new var called temp?
 
-  Push commands into a socket:
-  socketVar.send("Put it in quotes")
+  Push commands into a socket:  socketVar.send("Put it in quotes")
+
+  We don't care about vulns here, but this is a good resource for ws command discovery: https://github.com/PalindromeLabs/STEWS
 
 Step 2: Develop script to automate commands:
   - Record traffic, change in new parameters to match device code
